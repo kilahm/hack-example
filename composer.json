@@ -1,0 +1,18 @@
+{
+    "name": "kilahm/hack-example",
+    "description": "Example code for Seattle Hack Meetup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac",
+            "email": "brotchen@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":
+        {
+            "HackMeetup\\" : "src/"
+        }
+    }
+}
